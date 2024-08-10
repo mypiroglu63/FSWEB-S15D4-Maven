@@ -1,5 +1,5 @@
 import org.example.Main;
-import org.example.WorkintechList;
+import org.example.Main.WorkintechList;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -39,7 +39,7 @@ public class MainTest {
         assertEquals(list instanceof ArrayList, true);
         assertEquals(list instanceof List, true);
     }
-    
+
     @Test
     @DisplayName("WorkintechList'e aynı eleman birden fazla kez eklenebiliyor mu ?")
     public void testWorkintechListAddMethod(){
